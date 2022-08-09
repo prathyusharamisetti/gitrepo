@@ -18,6 +18,7 @@ public class Fourclass {
 	@Test
 	public  void methodfive(String url)
 	{
+		System.out.println("changed by sravani");
 		System.out.println("method 5");
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
@@ -29,6 +30,7 @@ public class Fourclass {
 	@Test
 	public  void methodsix(String url)
 	{
+		System.out.println("changed by sravani");
 		System.out.println("method 6");
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
