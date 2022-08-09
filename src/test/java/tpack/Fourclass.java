@@ -36,7 +36,7 @@ public class Fourclass {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 		driver.get(url);
-	
+	System.out.println("changed by prathyusha");
 		//driver.get("https://www.amazon.in/");
 	}
 	/*@BeforeMethod
