@@ -9,6 +9,8 @@ public class Oneclass {
 	@Test
 	public  void methodOne()
 	{
+		
+                   System.out.println("changed by prathyusha");
 		System.out.println("method 1");
 		//driver.get("https://www.amazon.in/");
 	}
